@@ -17,6 +17,8 @@ Developers:
 
 ## Introduction:
 
+This is our MapReduce Project which involves processing data from the city of Los Angeles parking citations database.  
+
 
 ## Data Source:
 This data source contains information about the records of all the parking citations issued to people in the city of Los Angeles. This data source has been hosted by the city of Los Angeles.The data source is about 233MB and contains information from January, 2010 to November, 2018. The dataset we have chosen has structured data. 
@@ -25,6 +27,8 @@ This data source contains information about the records of all the parking citat
 
 ## Challenges of the Data Source (The V's of Big Data):
 
+The dataset we have chosen has a huge volume of data which keeps updateing daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.  
+ 
 
 ## The Big Data Question:
 - Saivarun Illendula: What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
