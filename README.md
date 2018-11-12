@@ -12,7 +12,6 @@ Developers:
 
 > Link to the repository: (https://github.com/Saivarun2185/MapReduceProject05.git)
 
-
 > Link to the Issue Tracker: (https://github.com/Saivarun2185/MapReduceProject05/issues)
 
 ## Introduction:
@@ -38,6 +37,8 @@ How does the color of car corispond to the number of cars that let the meter exp
 - Saivarun Illendula:
 What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
 
+- Samuel Gedwillo:
+What hour of the day has the most parking violations?
 
 
 ## Big Data Solutions:
@@ -57,7 +58,9 @@ What is the total amount of fines collected for the violation of "NO STOP/STAND 
     GY, 1 
 
 - Saivarun Illendula:
-     
+
+- Samuel Gedwillo:
+    1200, 1
 
 3. Reducer Output:
 
@@ -66,16 +69,30 @@ What is the total amount of fines collected for the violation of "NO STOP/STAND 
 
 - Saivarun Illendula: 
 
+- Samuel Gedwillo:
+    1200, 300
+    
 4. Language:
 
-- Zachary Haider: I will use Python for performing the MapReduce Jobs.
-- Saivarun Illendula: I also will use Python for performing the MapReduce Jobs.
+- Zachary Haider: 
+I will use Python for performing the MapReduce Jobs.
 
+- Saivarun Illendula: 
+I also will use Python for performing the MapReduce Jobs.
+
+- Samuel Gedwillo:
+I am planning on using Python to execute my MapReduce job.
 
 5. Chart: 
 
-- Zachary Haider: I will be useing a pie chart for my data.
-- Saivarun Illendula: I will be using Bar Chart to represent our MapReduce outputs.
+- Zachary Haider:
+ I will be useing a pie chart for my data.
+
+- Saivarun Illendula: 
+I will be using Bar Chart to represent our MapReduce outputs.
+
+- Samuel Gedwillo:
+I am planning on using a Bar Chart create a story for my data.
 
 
 
