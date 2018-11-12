@@ -32,7 +32,7 @@ The dataset we have chosen has a huge volume of data which keeps updateing daily
 ## The Big Data Question:
 
 - Zachary Haider: 
-How does the color of car corispond to the number of cars that let the meter expire?
+How does the color of car correspond to the number of cars that let the meter expire?
 
 - Saivarun Illendula:
 What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
