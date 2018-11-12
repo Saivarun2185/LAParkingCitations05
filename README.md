@@ -22,7 +22,7 @@ This is our MapReduce Project which involves processing data from the city of Lo
 ## Data Source:
 This data source is a csv file containing information about the records of all the parking citations issued to people in the city of Los Angeles. This data source has been hosted by the city of Los Angeles.The data source is about 233MB and contains information from January, 2010 to November, 2018. The dataset we have chosen has structured data. 
 
->Link to the Data Source: [Los Angeles Parking Citations](https://www.kaggle.com/cityofLA/los-angeles-parking-citations)
+>Link to the Data Source: (https://www.kaggle.com/cityofLA/los-angeles-parking-citations)
 
 ## Challenges of the Data Source (The V's of Big Data):
 
