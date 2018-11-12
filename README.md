@@ -4,7 +4,7 @@
 
 > Project Number: Group 5 
 
-Developers:
+### Developers:
 - Zachary Haider
 - Saivarun Illendula
 - Samuel Gedwillo
@@ -12,54 +12,87 @@ Developers:
 
 > Link to the repository: (https://github.com/Saivarun2185/MapReduceProject05.git)
 
-
 > Link to the Issue Tracker: (https://github.com/Saivarun2185/MapReduceProject05/issues)
 
 ## Introduction:
 
-This is our MapReduce Project which involves processing data from the city of Los Angeles parking citations database.  
+This is our MapReduce Project which involves processing data from the city of Los Angeles parking citations database.We will use the data set linked here to answer 4 difrent quietions about the answer.
 
 
 ## Data Source:
-This data source contains information about the records of all the parking citations issued to people in the city of Los Angeles. This data source has been hosted by the city of Los Angeles.The data source is about 233MB and contains information from January, 2010 to November, 2018. The dataset we have chosen has structured data. 
+This data source is a csv file containing information about the records of all the parking citations issued to people in the city of Los Angeles. This data source has been hosted by the city of Los Angeles.The data source is about 233MB and contains information from January, 2010 to November, 2018. The dataset we have chosen has structured data. 
 
->Link to the Data Source: [Los Angeles Parking Citations](https://www.kaggle.com/cityofLA/los-angeles-parking-citations)
+>Link to the Data Source: (https://www.kaggle.com/cityofLA/los-angeles-parking-citations)
 
 ## Challenges of the Data Source (The V's of Big Data):
 
-The dataset we have chosen has a huge volume of data which keeps updateing daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.  
+The dataset we have chosen has a huge volume of data which keeps updateing daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
  
 
 ## The Big Data Question:
-- Saivarun Illendula: What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
+
+- Zachary Haider: 
+How does the color of car correspond to the number of cars that let the meter expire?
+
+- Saivarun Illendula:
+What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
+
+- Samuel Gedwillo:
+What hour of the day has the most parking violations?
 
 
 ## Big Data Solutions:
 
-1. Mapper Input:
+### 1. Mapper Input:
 
-- Saivarun Illendula: 
+- Everyone is useing the same dataset and therefor will have the same Mapper Input: 
 
     | Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
     |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
     | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
 
 
-2. Mapper Output:
+### 2. Mapper Output:
+
+- Zachary Haider:
+    GY, 1 
+
+- Saivarun Illendula:
+
+- Samuel Gedwillo:
+    1200, 1
+
+### 3. Reducer Output:
+
+- Zachary Haider:
+    GY, 2023
 
 - Saivarun Illendula: 
 
-3. Reducer Output:
+- Samuel Gedwillo:
+    1200, 300
+    
+### 4. Language:
+
+- Zachary Haider: 
+I will use Python for performing the MapReduce Jobs.
 
 - Saivarun Illendula: 
+I also will use Python for performing the MapReduce Jobs.
 
-4. Language:
+- Samuel Gedwillo:
+I am planning on using Python to execute my MapReduce job.
 
-- Saivarun Illendula: I  will use Python for performing the MapReduce Jobs.
+### 5. Chart: 
 
-5. Chart: 
+- Zachary Haider:
+ I will be useing a pie chart for my data.
 
-- Saivarun Illendula: We will be using Bar Chart to represent our MapReduce outputs.
+- Saivarun Illendula: 
+I will be using Bar Chart to represent our MapReduce outputs.
+
+- Samuel Gedwillo:
+I am planning on using a Bar Chart create a story for my data.
 
 
 
