@@ -4,7 +4,7 @@
 
 > Project Number: Group 5 
 
-###Developers:
+### Developers:
 - Zachary Haider
 - Saivarun Illendula
 - Samuel Gedwillo
@@ -43,7 +43,7 @@ What hour of the day has the most parking violations?
 
 ## Big Data Solutions:
 
-###1. Mapper Input:
+### 1. Mapper Input:
 
 - Everyone is useing the same dataset and therefor will have the same Mapper Input: 
 
@@ -52,7 +52,7 @@ What hour of the day has the most parking violations?
     | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
 
 
-###2. Mapper Output:
+### 2. Mapper Output:
 
 - Zachary Haider:
     GY, 1 
@@ -62,7 +62,7 @@ What hour of the day has the most parking violations?
 - Samuel Gedwillo:
     1200, 1
 
-###3. Reducer Output:
+### 3. Reducer Output:
 
 - Zachary Haider:
     GY, 2023
@@ -72,7 +72,7 @@ What hour of the day has the most parking violations?
 - Samuel Gedwillo:
     1200, 300
     
-###4. Language:
+### 4. Language:
 
 - Zachary Haider: 
 I will use Python for performing the MapReduce Jobs.
