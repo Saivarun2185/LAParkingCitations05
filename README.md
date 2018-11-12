@@ -2,7 +2,7 @@
 
 > Course: Big Data (44-517)
 
-> Project Number: 
+> Project Number: Group 5 
 
 Developers:
 - Zachary Haider
@@ -27,27 +27,35 @@ This data source contains information about the records of all the parking citat
 
 
 ## The Big Data Question:
-
+- Saivarun Illendula: What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
 
 
 ## Big Data Solutions:
 
 1. Mapper Input:
 
+- Saivarun Illendula: 
+
+    | Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
+    |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
+    | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
+
 
 2. Mapper Output:
 
+- Saivarun Illendula: 
 
 3. Reducer Output:
 
+- Saivarun Illendula: 
 
 4. Language:
 
-    We will use Python for performing the MapReduce Jobs.
+- Saivarun Illendula: I  will use Python for performing the MapReduce Jobs.
 
 5. Chart: 
 
-    We will be using Bar Chart to represent our MapReduce outputs.
+- Saivarun Illendula: We will be using Bar Chart to represent our MapReduce outputs.
 
 
 
