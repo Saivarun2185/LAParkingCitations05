@@ -83,7 +83,7 @@ I also will use Python for performing the MapReduce Jobs.
 - Samuel Gedwillo:
 I am planning on using Python to execute my MapReduce job.
 
-5. Chart: 
+### 5. Chart: 
 
 - Zachary Haider:
  I will be useing a pie chart for my data.
