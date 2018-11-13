@@ -41,6 +41,8 @@ For each year from 2010 to 2018 what is the total number of fines for the violat
 - Samuel Gedwillo:
 What hour of the day has the most parking violations?
 
+- Aawaj Joshi:
+What was the average fine amount for black colored vehicles between the years 2010 and 2015?
 
 ## Big Data Solutions:
 
@@ -64,6 +66,9 @@ What hour of the day has the most parking violations?
 - Samuel Gedwillo:
     1200, 1
 
+- Aawaj Joshi:
+    BK, 1
+
 ### 3. Reducer Output:
 
 - Zachary Haider:
@@ -74,6 +79,9 @@ What hour of the day has the most parking violations?
 
 - Samuel Gedwillo:
     1200, 300
+
+- Aawaj Joshi:
+    BK, 68
     
 ### 4. Language:
 
@@ -86,6 +94,9 @@ I also will use Python for performing the MapReduce Jobs.
 - Samuel Gedwillo:
 I am planning on using Python to execute my MapReduce job.
 
+- Aawaj Joshi:
+I will be using Python to run my MapReduce jobs. 
+
 ### 5. Chart: 
 
 - Zachary Haider:
@@ -96,6 +107,9 @@ I will be using Bar Chart to represent our MapReduce outputs.
 
 - Samuel Gedwillo:
 I am planning on using a Bar Chart create a story for my data.
+
+- Aawaj Joshi: 
+I will visualize my MapReduce outputs using a Bar Chart.
 
 
 
