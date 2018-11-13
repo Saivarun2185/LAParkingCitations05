@@ -28,14 +28,12 @@ This data source is a csv file containing information about the records of all t
 
 The dataset we have chosen has a huge volume of data which keeps updateing daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
  
-
 ## The Big Data Question:
 
 - Zachary Haider: 
 How does the color of car correspond to the number of cars that let the meter expire?
 
 - Saivarun Illendula:
-
 For each year from 2010 to 2018 what is the total number of fines for the violation of "NO STOP/STAND AM" in the city of LA ?
 
 - Samuel Gedwillo:
@@ -96,8 +94,3 @@ I will be using Bar Chart to represent our MapReduce outputs.
 
 - Samuel Gedwillo:
 I am planning on using a Bar Chart create a story for my data.
-
-
-
-
-
