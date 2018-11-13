@@ -35,7 +35,8 @@ The dataset we have chosen has a huge volume of data which keeps updateing daily
 How does the color of car correspond to the number of cars that let the meter expire?
 
 - Saivarun Illendula:
-What is the total amount of fines collected for the violation of "NO STOP/STAND AM" from 2010 to 2018 in the city of LA ?
+
+For each year from 2010 to 2018 what is the total number of fines for the violation of "NO STOP/STAND AM" in the city of LA ?
 
 - Samuel Gedwillo:
 What hour of the day has the most parking violations?
@@ -58,6 +59,7 @@ What hour of the day has the most parking violations?
     GY, 1 
 
 - Saivarun Illendula:
+    2015, 50
 
 - Samuel Gedwillo:
     1200, 1
@@ -68,6 +70,7 @@ What hour of the day has the most parking violations?
     GY, 2023
 
 - Saivarun Illendula: 
+    2015, 1500
 
 - Samuel Gedwillo:
     1200, 300
