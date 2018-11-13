@@ -16,7 +16,7 @@
 
 ## Introduction:
 
-This is our MapReduce Project which involves processing data from the city of Los Angeles parking citations database.We will use the data set linked here to answer 4 difrent quietions about the answer.
+This is our MapReduce Project which involves processing data from the city of Los Angeles parking citations database.We will use the data set linked here to answer 4 difrent questions about the answer.
 
 
 ## Data Source:
