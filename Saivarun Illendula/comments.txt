@@ -1,0 +1,5 @@
+Some of the challenges I faced while working on the Mapreduce was to organize contents of the file according to my Big Data Question extract the "year" field from the date Issue Date column.
+
+My advise to any team attempting a Mapreduce problem is to carefully analyze the data and check the code if it works for small chunks of data and then attempt to obtain the expected output from operating on the large volume of data.
+
+It took me around 2 hours to complete the Mapreduce process. 
