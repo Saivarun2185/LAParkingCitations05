@@ -40,7 +40,7 @@ For each year from 2010 to 2018 what is the total number of fines for the violat
 What hour of the day has the most parking violations?
 
 - Aawaj Joshi:
-What was the average fine amount for black colored vehicles between the years 2010 and 2015?
+What was the average fine amount for black colored vehicles that received parking citations in LA? 
 
 ## Big Data Solutions:
 
