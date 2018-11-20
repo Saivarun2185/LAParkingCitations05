@@ -1,0 +1,1 @@
+This assignment took me around an hour and a half. I struggled while creating the Reducer. But at the end, I did get the average fine amount for all the black color vehicles in the dataset, which I have printed to the console (shown in the screenshot) as well as written to an output file. 
