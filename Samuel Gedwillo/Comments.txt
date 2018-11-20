@@ -1,0 +1,5 @@
+I struggled with testing my mapper and reducer. I researched and found http://rare-chiller-615.appspot.com/mr1.html
+very helpful with instructions on how to test as well as a sample mapper and reducer. I would highly recommend using
+this as a guide. I see myself going back to this website as a tutorial next time I create an MR job.
+
+I would estimate this job took about 5 hours to write and complete. I'm slow:)
