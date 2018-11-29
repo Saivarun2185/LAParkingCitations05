@@ -106,9 +106,9 @@ I will visualize my MapReduce outputs using a Bar Chart.
 
 ## Authors 
 
-**Zachary Haider**
-**Saivarun Illendula**
-**Samuel Gedwillo**
+**Zachary Haider**  
+**Saivarun Illendula**  
+**Samuel Gedwillo**  
 **Aawaj Joshi**
 
 
