@@ -18,6 +18,26 @@ https://www.kaggle.com/cityofLA/los-angeles-parking-citations
 
 In this project, we create and compile our individual Mappers and Reducers to generate the output needed to answer our Big Data questions pertaining to the dataset. To summarize in a simple term, we run processes to generate mathematical computations such as count, maximum, and average.
 
+## Implimentation:
+Each of the sections has its own mapper.py and reducer.py ( and some have sorter.py). To run the code for each you need to have python 3.0 or higher. 
+
+For each section start with its mapper.py by typeing the following commands into your commandline or terminal:
+ 
+> python mapper.py
+ 
+Then if it has a sorter.py run it with 
+
+> python sorter.py
+
+Finaly run the reducer.py with:
+
+> python reducer.py
+
+The results should be generated accordingly.
+
+
+  
+
 ## Challenges of the Data Source (The V's of Big Data):
 
 The dataset that we picked has a huge volume of data which is updated daily signifying a swift velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
