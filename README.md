@@ -56,8 +56,7 @@ I will use Python for performing the MapReduce Jobs.
 
 ##### 5. Chart: 
  I will be useing a bar chart for my data.
- 
-      ![chart](https://github.com/Saivarun2185/LAParkingCitations05/blob/master/Zachary%20Haider/chart.png?raw=true)
+ ![chart](https://github.com/Saivarun2185/LAParkingCitations05/blob/master/Zachary%20Haider/chart.png?raw=true)
       
 
 
