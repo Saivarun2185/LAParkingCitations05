@@ -125,7 +125,7 @@ I am planning on using Python to execute my MapReduce job.
 
 I am planning on using a Bar Chart create a story for my data.
 
-![barchart](https://github.com/Saivarun2185/LAParkingCitations05/tree/master/Samuel%20Gedwillo/chart.png?raw=true)
+![barchart](https://github.com/Saivarun2185/LAParkingCitations05/blob/master/Samuel%20Gedwillo/chart.png)
 
 
 ### Awaj Joshi:
