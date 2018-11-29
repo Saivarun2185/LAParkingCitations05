@@ -40,6 +40,7 @@ What was the average fine amount for black colored vehicles that received parkin
 
 ### Zachary Haider:
 ##### 1. Mapper Input:
+ 
 
 | Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
     |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
