@@ -97,6 +97,8 @@ I will be using Python to run my MapReduce jobs.
 - Saivarun Illendula: 
 I will be using Bar Chart to represent our MapReduce outputs.
 
+![barchart](https://user-images.githubusercontent.com/31701961/49250810-758c7600-f3e5-11e8-9f07-59791dd2e232.PNG)
+
 - Samuel Gedwillo:
 I am planning on using a Bar Chart create a story for my data.
 
