@@ -25,7 +25,7 @@ The dataset that we picked has a huge volume of data which is updated daily sign
 ## The Big Data Question:
 
 - Zachary Haider: 
-How does the color of car correspond to the number of cars that let the meter expire?
+For each  car that let the meter expire how many cars of each color were there?
 
 - Saivarun Illendula:
 For each year from 2010 to 2018 what is the total number of fines for the violation of "NO STOP/STAND AM" in the city of LA ?
@@ -38,71 +38,82 @@ What was the average fine amount for black colored vehicles that received parkin
 
 ## Big Data Solutions:
 
-### 1. Mapper Input:
-
-- Everyone is useing the same dataset and therefor will have the same Mapper Input: 
-
-    | Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
+### Zachary Haider:
+##### 1. Mapper Input:
+| Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
     |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
     | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
 
 
-### 2. Mapper Output:
+##### 2. Mapper Output:
+* GY, 1 
 
-- Zachary Haider:
-    GY, 1 
+##### 3. Reducer Output:
+-    GY, 2023
 
-- Saivarun Illendula:
-    2015, 50
-
-- Samuel Gedwillo:
-    1200, 1
-
-- Aawaj Joshi:
-    BK, 1
-
-### 3. Reducer Output:
-
-- Zachary Haider:
-    GY, 2023
-
-- Saivarun Illendula: 
-    2015, 1500
-
-- Samuel Gedwillo:
-    1200, 300
-
-- Aawaj Joshi:
-    BK, 68
-    
-### 4. Language:
-
-- Zachary Haider: 
+##### 4. Language:
 I will use Python for performing the MapReduce Jobs.
 
-- Saivarun Illendula: 
+##### 5. Chart: 
+ I will be useing a bar chart for my data.
+
+
+### Saivarun Illendula:
+
+##### 1. Mapper Input:
+
+| Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
+    |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
+    | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
+
+##### 2. Mapper Output:
+* 2015, 50
+
+##### 3. Reducer Output:
+* 2015, 1500
+
+##### 4. Language:
 I also will use Python for performing the MapReduce Jobs.
 
-- Samuel Gedwillo:
-I am planning on using Python to execute my MapReduce job.
-
-- Aawaj Joshi:
-I will be using Python to run my MapReduce jobs. 
-
-### 5. Chart: 
-
-- Zachary Haider:
- I will be useing a pie chart for my data.
-
-- Saivarun Illendula: 
+##### 5. Chart: 
 I will be using Bar Chart to represent our MapReduce outputs.
 
 ![barchart](https://user-images.githubusercontent.com/31701961/49250810-758c7600-f3e5-11e8-9f07-59791dd2e232.PNG)
 
-- Samuel Gedwillo:
+
+### Samuel Gedwillo
+
+#### 1. Mapper Input:
+
+| Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
+    |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
+    | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
+
+##### 2. Mapper Output:
+-  1200, 1
+
+##### 3. Reducer Output:
+- 1200, 300
+
+##### 4. Language:
+
+I am planning on using Python to execute my MapReduce job.
+
+##### 5. Chart: 
+
 I am planning on using a Bar Chart create a story for my data.
 
-- Aawaj Joshi: 
+### Awaj Joshi:
+
+##### 2. Mapper Output:
+*  BK, 1
+
+##### 3. Reducer Output:
+* BK, 68
+##### 4. Language:
+I will be using Python to run my MapReduce jobs. 
+
+##### 5. Chart: 
 I will visualize my MapReduce outputs using a Bar Chart.
 
 
