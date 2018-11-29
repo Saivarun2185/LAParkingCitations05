@@ -4,29 +4,23 @@
 
 > Project Number: Group 5 
 
-### Developers:
-- Zachary Haider
-- Saivarun Illendula
-- Samuel Gedwillo
-- Aawaj Joshi
+## About our dataset 
 
-> Link to the repository: (https://github.com/Saivarun2185/MapReduceProject05.git)
+Our data, hosted by the city of Los Angeles (LA), concerns parking citations issued in LA from 2015 - present. For each citation record, the citation number, issue date and time, meter id and marked time (if applicable), the registration state, plate expiry date, VIN, make, body style, and color of the vehicle, location of violation, route, violation code and description, and fine amount have been recorded. 
 
-> Link to the Issue Tracker: (https://github.com/Saivarun2185/MapReduceProject05/issues)
+## Link to our dataset 
 
-## Introduction:
+We obtained our dataset on [Kaggle](https://www.kaggle.com/). Here is the link to the raw dataset. 
 
-This is our MapReduce Project which involves processing data from the city of Los Angeles parking citations database.We will use the data set linked here to answer 4 difrent questions about the answer.
+https://www.kaggle.com/cityofLA/los-angeles-parking-citations
 
+## Overview of our project
 
-## Data Source:
-This data source is a csv file containing information about the records of all the parking citations issued to people in the city of Los Angeles. This data source has been hosted by the city of Los Angeles.The data source is about 233MB and contains information from January, 2010 to November, 2018. The dataset we have chosen has structured data. 
-
->Link to the Data Source: (https://www.kaggle.com/cityofLA/los-angeles-parking-citations)
+In this project, we create and compile our individual Mappers and Reducers to generate the output needed to answer our Big Data questions pertaining to the dataset. To summarize in a simple term, we run processes to generate mathematical computations such as count, maximum, and average.
 
 ## Challenges of the Data Source (The V's of Big Data):
 
-The dataset we have chosen has a huge volume of data which keeps updateing daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
+The dataset we have chosen has a huge volume of data which keeps updating daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
  
 ## The Big Data Question:
 
@@ -110,6 +104,12 @@ I am planning on using a Bar Chart create a story for my data.
 I will visualize my MapReduce outputs using a Bar Chart.
 
 
+## Authors 
+
+**Zachary Haider**
+**Saivarun Illendula**
+**Samuel Gedwillo**
+**Aawaj Joshi**
 
 
 
