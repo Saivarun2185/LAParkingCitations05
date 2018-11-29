@@ -56,6 +56,7 @@ I will use Python for performing the MapReduce Jobs.
 
 ##### 5. Chart: 
  I will be useing a bar chart for my data.
+ 
  ![chart](https://github.com/Saivarun2185/LAParkingCitations05/blob/master/Zachary%20Haider/chart.png?raw=true)
       
 
@@ -105,7 +106,17 @@ I am planning on using Python to execute my MapReduce job.
 
 I am planning on using a Bar Chart create a story for my data.
 
+![barchart](https://github.com/Saivarun2185/LAParkingCitations05/blob/master/Samuel%20Gedwillo/chart.png?raw=true)
+
+
 ### Awaj Joshi:
+
+#### 1. Mapper Input:
+
+| Ticket number | Issue Date          | Issue time | Meter Id | Marked Time | RP State Plate | Plate Expiry Date | VIN | Make | Body Style | Color | Location        | Route | Agency | Violation code | Violation Description | Fine amount | Latitude |
+    |---------------|---------------------|------------|----------|-------------|----------------|-------------------|-----|------|------------|-------|-----------------|-------|--------|----------------|-----------------------|-------------|----------|
+    | 1103341116    | 2015-12-21T00:00:00 | 1251       |          |             | CA             | 200304            |     | HOND | PA         | GY    | 13147 WELBY WAY | 1521  | 1      | 4000A1         | NO EVIDENCE OF REG    | 50          | 99999    |
+
 
 ##### 2. Mapper Output:
 *  BK, 1
@@ -118,6 +129,7 @@ I will be using Python to run my MapReduce jobs.
 ##### 5. Chart: 
 I will visualize my MapReduce outputs using a Bar Chart.
 
+![barchart](https://github.com/Saivarun2185/LAParkingCitations05/blob/master/Aawaj%20Joshi/chart.png?raw=true)
 
 ## Authors 
 
