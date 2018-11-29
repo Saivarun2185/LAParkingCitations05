@@ -20,7 +20,7 @@ In this project, we create and compile our individual Mappers and Reducers to ge
 
 ## Challenges of the Data Source (The V's of Big Data):
 
-The dataset we have chosen has a huge volume of data which keeps updating daily signifying its velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
+The dataset that we picked has a huge volume of data which is updated daily signifying a swift velocity. The dataset is maintained by Kaggle and hosted by the city of Los Angeles which makes it trustworthy. The dataset has a wide variety of different field inputs like text and numerical data. This data is valuable as it helps in keeping track of parking violations in the city of Los Angeles from 2010 to now.
  
 ## The Big Data Question:
 
