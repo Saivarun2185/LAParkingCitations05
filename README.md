@@ -18,7 +18,8 @@ https://www.kaggle.com/cityofLA/los-angeles-parking-citations
 
 In this project, we create and compile our individual Mappers and Reducers to generate the output needed to answer our Big Data questions pertaining to the dataset. To summarize in a simple term, we run processes to generate mathematical computations such as count, maximum, and average.
 
-## Implimentation:
+## Implementation
+
 Each of the sections has its own mapper.py and reducer.py ( and some have sorter.py). To run the code for each you need to have python 3.0 or higher. 
 
 For each section start with its mapper.py by typeing the following commands into your commandline or terminal:
@@ -54,7 +55,7 @@ For each year from 2010 to 2018 what is the total number of fines for the violat
 What hour of the day has the most parking violations?
 
 - Aawaj Joshi:
-What was the average fine amount for black colored vehicles that received parking citations in LA? 
+What is the average fine amount for black colored vehicles that received a parking citation in LA between 2010 - 2018 (present)?
 
 ## Big Data Solutions:
 
@@ -141,7 +142,8 @@ I am planning on using a Bar Chart create a story for my data.
 *  BK, 1
 
 ##### 3. Reducer Output:
-* BK, 68
+* 2015, 68
+
 ##### 4. Language:
 I will be using Python to run my MapReduce jobs. 
 
