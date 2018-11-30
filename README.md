@@ -94,7 +94,7 @@ I will use Python for performing the MapReduce Jobs.
 * 2015, 50
 
 ##### 3. Reducer Output:
-* 2015, 1500
+* 2012, 70.625
 
 ##### 4. Language:
 I also will use Python for performing the MapReduce Jobs.
