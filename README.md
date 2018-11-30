@@ -142,7 +142,7 @@ I am planning on using a Bar Chart create a story for my data.
 *  BK, 1
 
 ##### 3. Reducer Output:
-* 2015, 68
+* 2012, 70.625
 
 ##### 4. Language:
 I will be using Python to run my MapReduce jobs. 
