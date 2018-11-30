@@ -14,16 +14,16 @@ count = 0.0
 
 for line in s:
  data = line.strip().split('\t')
- color, fine = data
+ color, year, fine = data
 
- if color != thisKey:
+ if year != thisKey:
    if thisKey:
      
      r.write(thisKey + '\t' + str(thisValue/count)+'\n')
-    
-    
+     print(thisKey + '\t' + str(thisValue)+'\n')
+
    #Changing the keys
-   thisKey = color
+   thisKey = year
    thisValue = 0.0
    count = 0.0
 
@@ -35,7 +35,7 @@ for line in s:
 r.write(thisKey + '\t' + str(thisValue/count) + '\n')
 
 #Printing the average on console
-print(thisKey + '\t' + "The average fine for a black colored vehicle in LA is: $" + str(thisValue/count)+'\n')
+print("The average fine for a white colored vehicle in LA is: $" + str(thisValue/count)+'\n')
 
 s.close()
 r.close()
