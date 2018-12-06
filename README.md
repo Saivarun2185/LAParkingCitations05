@@ -139,7 +139,7 @@ I am planning on using a Bar Chart create a story for my data.
 
 
 ##### 2. Mapper Output:
-*  BK, 1
+*  BK, 2015, 50
 
 ##### 3. Reducer Output:
 * 2012, 70.625
