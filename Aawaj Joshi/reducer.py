@@ -20,7 +20,9 @@ for line in s:
    if thisKey:
      
      r.write(thisKey + '\t' + str(thisValue/count)+'\n')
-     print(thisKey + '\t' + str(thisValue)+'\n')
+
+     #Printing to the console
+     print(thisKey + '\t' + str(thisValue/count)+'\n')
 
    #Changing the keys
    thisKey = year
@@ -33,9 +35,6 @@ for line in s:
 
 #Writing the average in file
 r.write(thisKey + '\t' + str(thisValue/count) + '\n')
-
-#Printing the average on console
-print("The average fine for a white colored vehicle in LA is: $" + str(thisValue/count)+'\n')
 
 s.close()
 r.close()
